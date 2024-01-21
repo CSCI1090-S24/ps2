@@ -5,7 +5,7 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 
 1. Accept the invitation you found on Canvas in Problem Set 2 (which you have already done if you are here).
 
-2, [Read PS1 Part 4 to review how to clone a problem set repository and how to work on it locally.](https://github.com/CSCI1090-S24/ps1/blob/main/README.md#part-4-clone-your-copy-of-the-repository-to-your-own-machine) **As described in PS1, you need to remember where you cloned your repo to on your own machine!**
+2. [Read PS1 Part 4 to review how to clone a problem set repository and how to work on it locally.](https://github.com/CSCI1090-S24/ps1/blob/main/README.md#part-4-clone-your-copy-of-the-repository-to-your-own-machine) **As described in PS1, you need to remember where you cloned your repo to on your own machine!**
 
 3. Edit the files on your computer in this repository as described in the sections below.
 
@@ -16,7 +16,7 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 
 ## Part 1
 
-You are going to create a simple Python program. Here's how to do that. You will be doing this for parts 2, 3, and 4, as well, so pay attention.
+First, you are going to create a Python file in IDLE. Here's how to do that. You will be doing this for parts 2, 3, and 4, as well, so pay attention.
 
 1. Launch IDLE.
 2. Go to `File -> New file`. A new window will open.
@@ -30,7 +30,31 @@ You are going to create a simple Python program. Here's how to do that. You will
 
 6. Now you have a Python program you can edit! This is what you should make your program do.
 
-* Ask the user for a number between 10 and 100. Save that to a variable called `firstnum`.
-* Ask the user for a second number less than 4. Save that to a variable called `secondnum`.
-* Print out their sum (`firstnum + secondnum`), difference (`firstnum - secondnum`), and product.
+* Ask the user for an integer between 10 and 100. Save that to a variable called `firstnum`.
+* Ask the user for a second integer that is less than 4. Save that to a variable called `secondnum`.
+* Repeat back to the user the two numbers that they entered.
+* Print out their sum and product.
 * Print out the first number raised to the power of the second number.
+* Print out the remainder you get when you divide the first number by the second number.
+
+7. When you run your program (`Run -> Run module`), your output must look more or less like this.
+
+**IMPORTANT: Save your file and test it after each line of code that you write. When you get an error message, it will be easier to determine exactly when and where you introduced an error if you are only testing a small amount of new code.** 
+
+## Part 2
+
+Create a new file called `ps1-part2.py` just as you did above. This program will do what you did in Part 1, but in a different format:
+
+1. Write a function called `number_fun()` that takes two integer parameters, `a`, and `b`. The function should:
+* Repeat back to the user the two integers that they entered.
+* Print out their sum and product.
+* Print out the first number raised to the power of the second number.
+* Print out the remainder you get when you divide the first number by the second number.
+
+2. Outside (after) the function, type code to:
+
+* Ask the user for an integer between 10 and 100. Save that to a variable called `firstnum`.
+* Ask the user for a second integer that is less than 4. Save that to a variable called `secondnum`.
+* Call the `number_fun()` function, passing in `firstnum` and `secondnum` as the arguments.
+
+
