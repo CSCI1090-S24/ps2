@@ -138,9 +138,11 @@ Recidivism risk scores are used to assess the risk of committing another crime a
 
 <img src="img/recidivism.jpg" width="500">
 
-Following the structure you used for any of the three problems above, write a Python program called `ps2-part4.py`. You can include your own function (like in Parts 2 and 3) or not (as in Part 1). Here's are a few sample runs of the program. Remember that your output must match this output in terms of words, formatting, etc.
+Following the structure you used for Part 1 (i.e., no need for a separate function), write a Python program called `ps2-part4.py` that calculates recidivism risk based on this simple model. Ask the user for (1) the number of prior arrests; (2) whether there are prior arrests for a local ordinance; and (3) the individual's age at release.
 
-Example 1
+Here's are a few sample runs of the program. **Remember that your output must match this output in terms of words, formatting, etc.**
+
+Example 1:
 
 ```
 Prior arrests: 3
@@ -149,7 +151,7 @@ Age at release: 23
 The recidivism risk score is 3
 ```
 
-Example 2
+Example 2:
 
 ```
 Prior arrests: 1
