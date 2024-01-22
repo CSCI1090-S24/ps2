@@ -47,7 +47,7 @@ First, you are going to create a Python file in IDLE. Here's how to do that. You
 
 ## Part 2
 
-Create a new file called `ps1-part2.py` just as you did above. This program will do what you did in Part 1, but in a different format:
+Create a new file called `ps1-part2.py` just as you did above. This program will do what you did in Part 1, but in a different way, as follows:
 
 1. Write a function called `number_fun()` that takes two integer parameters, `a`, and `b`. The function should:
 * Repeat back to the user the two integers that they entered.
@@ -55,10 +55,12 @@ Create a new file called `ps1-part2.py` just as you did above. This program will
 * Print out the first number raised to the power of the second number.
 * Print out the remainder you get when you divide the first number by the second number.
 
-2. Outside (after) the function, type code to:
+2. **Outside** (after) the function, type code to:
 
 * Ask the user for an integer between 10 and 100. Save that to a variable called `firstnum`.
 * Ask the user for a second integer that is less than 4. Save that to a variable called `secondnum`.
 * Call the `number_fun()` function, passing in `firstnum` and `secondnum` as the arguments.
 
+When you run your program, your output should look exactly like the output of your program in Part 1.
 
+## Part 3
