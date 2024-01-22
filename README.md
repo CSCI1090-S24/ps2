@@ -1,5 +1,5 @@
 # Problem Set 2
-### Due Friday, January 26, 2024, at 11:59pm EST
+### Due Monday, January 29, 2024, at 11:59pm EST
 
 
 ### Accessing and submitting the problem set
@@ -168,7 +168,7 @@ The recidivism risk score is -1
 
 ---
 
-## Deadline: Friday, January 26, 2024, at 11:59pm EST
+## Deadline: Monday, January 29, 2024, at 11:59pm EST
 
 ## Deliverables
 
