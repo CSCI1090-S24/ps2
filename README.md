@@ -13,8 +13,16 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 
 **NOTE: This respository is nearly empty. That's because you will be creating Python programs yourself, putting them (or creating them) in this directory, and pushing and committing them to GitHub.**
 
+## Deliverables
 
-## Part 1
+1. `ps2-part1.py` (Part 1)
+2. `ps2-part2.py` (Part 2)
+3. `ps2-part3.py` (Part 3)
+4. `ps2-part4.py` (Part 4)
+
+Due Friday, January 26, 2024, at 11:59pm EST
+
+## Part 1: Math with user input
 
 First, you are going to create a Python file in IDLE. Here's how to do that. You will be doing this for parts 2, 3, and 4, as well, so pay attention.
 
@@ -41,21 +49,21 @@ First, you are going to create a Python file in IDLE. Here's how to do that. You
 * Print out the first number raised to the power of the second number.
 * Print out the remainder you get when you divide the first number by the second number.
 
-7. When you run your program (`Run -> Run module`), your output must look more or less like this.
+7. When you run your program (`Run -> Run module`), your output must look like the example below. We wil take off points if the words, spacing, capitlization are not the same as the output below. The only thing that will vary will be the information after the colon, which is either provided by the user or is the result of a mathematical operation.
 
 **IMPORTANT: Save your file and test it after each line of code that you write. When you get an error message, it will be easier to determine exactly when and where you introduced an error if you are only testing a small amount of new code.** 
 
-## Part 2
+## Part 2: Math with user input using a function
 
-Create a new file called `ps1-part2.py` just as you did above. This program will do what you did in Part 1, but in a different way, as follows:
+Create a new file called `ps2-part2.py` just as you did above. This program will do what you did in Part 1, but this time you will write your own function to do the math work. Here's how it will go:
 
-1. Write a function called `number_fun()` that takes two integer parameters, `a`, and `b`. The function should:
+1. Write a function called `number_fun()` that takes two integer parameters, `a` and `b`. The function should everything you did above **except** get the input from the user, namely:
 * Repeat back to the user the two integers that they entered.
 * Print out their sum and product.
 * Print out the first number raised to the power of the second number.
 * Print out the remainder you get when you divide the first number by the second number.
 
-2. **Outside** (after) the function, type code to:
+2. **Outside** (after) the function definition, type code to:
 
 * Ask the user for an integer between 10 and 100. Save that to a variable called `firstnum`.
 * Ask the user for a second integer that is less than 4. Save that to a variable called `secondnum`.
@@ -63,4 +71,22 @@ Create a new file called `ps1-part2.py` just as you did above. This program will
 
 When you run your program, your output should look exactly like the output of your program in Part 1.
 
-## Part 3
+## Part 3: Target heart rate calculation
+In this problem, you will ask a user to provide their age and to choose between two fitness goals. You will then tell them what their target heart rate should be for that fitness goal given their age. Your code will go in a file called `ps2-part3.py`, which you will create as you did for the other problems, above. Here's how your code should work:
+
+1. Write a function, `heart_rate()` that takes two parameters: `age` (an integer) and `goal` (a character, `S` for speed or `E` for endurance). The function should do the following:
+* Subtract the user's age from 220 to give their max heart rate, saved as a variable called `max_heart_rate`.
+* Print out the user's max heart rate.
+* Print out their target heart rate range given their goal.
+  - If the `goal` value is `S`, their target heart rate range is 80\% to 100\% of `max_heart_rate`.
+  - If the `goal` value is `E`, their target heart rate range is 60\% to 80\% of `max_heart_rate`.
+* See the example output below for the exact wording of your output and a few examples.
+
+2. **Outside** (after) the function definition, type code to
+* Ask the user their age, which you should save as a variable called `user_age`. See the example output below for the required wording.
+* Ask the user if they want to improve speed (`S`) or endurance (`E`). Save the input as `user_goal`. See the example output below for the required wording.
+* Call the `heart_rate()` function you wrote above, passing in `user_age` and `user_goal` as the arguments.
+
+When you run your program (`Run -> Run module`), your output must look like the example below. We wil take off points if the words, spacing, capitlization are not the same as the output below. The only thing that will vary will be the information provided by the user and the result of the mathematical operations.
+
+## Part 4: 
