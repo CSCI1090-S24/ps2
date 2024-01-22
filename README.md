@@ -20,7 +20,15 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 3. `ps2-part3.py` (Part 3)
 4. `ps2-part4.py` (Part 4)
 
-Due Friday, January 26, 2024, at 11:59pm EST
+## Important Guidelines
+* Your problem set must be submitted with GitHub. If you are struggling to use GitHub, the TAs can help!
+* You do not need to do error checking. You can assume the user will always enter the kind of iput you ask for.
+* Comments are not required yet, but they are strongly encouraged so that we can give you extra credit.
+* Points will be deducted if your output does not match the required format.
+* Points will be deducted if your files are not named as required.
+* Points will be deducted if your files are not in the correct location (i.e., in the top-level directory where you see the `README`.)
+
+---
 
 ## Part 1: Math with user input
 
@@ -71,7 +79,7 @@ Create a new file called `ps2-part2.py` just as you did above. This program will
 
 When you run your program, your output should look exactly like the output of your program in Part 1.
 
-## Part 3: Target heart rate calculation
+## Part 3: Target heart rate calculator
 In this problem, you will ask a user to provide their age and to choose between two fitness goals. You will then tell them what their target heart rate should be for that fitness goal given their age. Your code will go in a file called `ps2-part3.py`, which you will create as you did for the other problems, above. Here's how your code should work:
 
 1. Write a function, `heart_rate()` that takes two parameters: `age` (an integer) and `goal` (a character, `S` for speed or `E` for endurance). The function should do the following:
@@ -87,6 +95,30 @@ In this problem, you will ask a user to provide their age and to choose between 
 * Ask the user if they want to improve speed (`S`) or endurance (`E`). Save the input as `user_goal`. See the example output below for the required wording.
 * Call the `heart_rate()` function you wrote above, passing in `user_age` and `user_goal` as the arguments.
 
-When you run your program (`Run -> Run module`), your output must look like the example below. We wil take off points if the words, spacing, capitlization are not the same as the output below. The only thing that will vary will be the information provided by the user and the result of the mathematical operations.
+When you run your program (`Run -> Run module`), your output must look like the example output below. We wil take off points if the words, spacing, capitlization are not the same as the output below. The only thing that will vary will be the information provided by the user and the result of the mathematical operations.
 
-## Part 4: 
+## Part 4: Recidivism calculator
+Recidivism risk scores are used to assess the risk of committing another crime after arrest and are used in bail and early parole decisions.  In Cynthia Rudin’s article [Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead](https://www.nature.com/articles/s42256-019-0048-x) (Nature Machine Intelligence, 2019), Rudin shows how the following simple model based on conditionals is almost as accurate as more complex machine learning models.
+
+<img src="img/reccidivism.png" width="500">
+
+Following the structure you used for Part 2 and Part 3, write a Python program called `ps2-part4.py`. Here's are a few sample runs of the program. Remember that your output must match this output in terms of words, spacing, formatting, etc.
+
+---
+
+## Deadline: Friday, January 26, 2024, at 11:59pm EST
+
+## Deliverables
+
+1. `ps2-part1.py` (Part 1)
+2. `ps2-part2.py` (Part 2)
+3. `ps2-part3.py` (Part 3)
+4. `ps2-part4.py` (Part 4)
+
+## Reminder: Important Guidelines
+* Your problem set must be submitted with GitHub. If you are struggling to use GitHub, the TAs or I can help during office hours.
+* You do not need to do error checking of user input. You can assume the user will always enter the kind of iput you ask for.
+* Comments are not required yet, but they are strongly encouraged so that we can give you extra credit.
+* Points will be deducted if your output does not match the requires format.
+* Points will be deducted if your files are not named as required.
+* Points will be deducted if your files are not in the correct location (i.e., in the top-level directory where you see the `README`.)
