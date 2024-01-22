@@ -1,6 +1,9 @@
 # Problem Set 2
 ### Due Friday, January 26, 2024, at 11:59pm EST
 
+
+### Accessing and submitting the problem set
+
 As with PS1, you will be accessing and submitting this problem set using GitHub Classroom. As a reminder, here's how that goes:
 
 1. Accept the invitation you found on Canvas in Problem Set 2 (which you have already done if you are here).
@@ -13,14 +16,14 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 
 **NOTE: This respository is nearly empty. That's because you will be creating Python programs yourself, putting them (or creating them) in this directory, and pushing and committing them to GitHub.**
 
-## Deliverables
+### Deliverables
 
 1. `ps2-part1.py` (Part 1)
 2. `ps2-part2.py` (Part 2)
 3. `ps2-part3.py` (Part 3)
 4. `ps2-part4.py` (Part 4)
 
-## Important Guidelines
+### Important Guidelines
 * Your problem set must be submitted with GitHub. If you are struggling to use GitHub, the TAs can help!
 * You do not need to do error checking. You can assume the user will always enter the kind of iput you ask for.
 * Comments are not required yet, but they are strongly encouraged so that we can give you extra credit.
