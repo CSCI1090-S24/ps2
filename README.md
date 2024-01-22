@@ -16,7 +16,7 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 
 This respository is nearly empty. That's because you will be creating Python programs yourself, putting them (or creating them) in this directory, and pushing and committing them to GitHub.
 
-This is what my student repo on GitHub looks like after I added, committed, and pushed my four files to GitHub.
+**After you have committed and pushed all your work**, this is what my your repo will look like on GitHub in your browser:
 
 <img src="img/myrepo.png" width="500">
 
