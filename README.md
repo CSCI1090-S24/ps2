@@ -56,7 +56,8 @@ First, you are going to create a Python file in IDLE. Here's how to do that. You
 * Ask the user for an integer between 10 and 100. Save that to a variable called `firstnum`.
 * Ask the user for a second integer that is less than 4. Save that to a variable called `secondnum`.
 * Repeat back to the user the two numbers that they entered.
-* Print out their sum and product.
+* Print out their sum.
+* Print out their product.
 * Print out the first number raised to the power of the second number.
 * Print out the remainder you get when you divide the first number by the second number.
 
@@ -82,7 +83,8 @@ Create a new file called `ps2-part2.py` just as you did above. This program will
 
 1. Write a function called `number_fun()` that takes two integer parameters, `a` and `b`. The function should everything you did above except get the input from the user, namely:
 * Repeat back to the user the two integers that they entered.
-* Print out their sum and product.
+* Print out their sum.
+* Print out their product.
 * Print out the first number raised to the power of the second number.
 * Print out the remainder you get when you divide the first number by the second number.
 
