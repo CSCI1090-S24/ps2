@@ -12,9 +12,14 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 
 3. Edit the files on your computer in this repository as described in the sections below.
 
-4. [Reead PS1 Part 9 to review how to submit your work using GitHub Desktop from your local machine up to GitHub on the internet.](https://github.com/CSCI1090-S24/ps1/blob/main/README.md#part-9-commit-your-work-to-github-classroom-using-the-github-desktop-app). Remember that you can commit and push your work as many times as you like. I recommend doing it often so that you have a backup of your work in case your computer breaks!
+4. [Reead PS1 Part 9 to review how to submit your work using GitHub Desktop from your local machine up to GitHub on the internet.](https://github.com/CSCI1090-S24/ps1/blob/main/README.md#part-9-commit-your-work-to-github-classroom-using-the-github-desktop-app). Remember that you can commit and push your work as many times as you like. I recommend doing it often so that you have a backup of your work in case your computer breaks.
 
-**NOTE: This respository is nearly empty. That's because you will be creating Python programs yourself, putting them (or creating them) in this directory, and pushing and committing them to GitHub.**
+This respository is nearly empty. That's because you will be creating Python programs yourself, putting them (or creating them) in this directory, and pushing and committing them to GitHub.
+
+This is what my student repo on GitHub looks like after I added, committed, and pushed my four files to GitHub.
+
+<img src="img/myrepo.png" width="500">
+
 
 ### Deliverables
 
@@ -25,8 +30,9 @@ As with PS1, you will be accessing and submitting this problem set using GitHub 
 
 ### Important Guidelines
 * Your problem set must be submitted with GitHub. If you are struggling to use GitHub, the TAs can help!
-* You do not need to do error checking. You can assume the user will always enter the kind of iput you ask for.
-* Comments are not required yet, but they are strongly encouraged so that we can give you extra credit.
+* You can confirm that you submitted correctly by looking at your repo on GitHub in your browser.
+* You do not need to do error checking. You can assume the user will always enter the kind of input you ask for.
+* Comments are not required yet, but they are strongly encouraged so that we can give you partial credit.
 * Points will be deducted if your output does not match the required format.
 * Points will be deducted if your files are not named as required.
 * Points will be deducted if your files are not in the correct location (i.e., in the top-level directory where you see the `README`.)
@@ -70,7 +76,7 @@ First, you are going to create a Python file in IDLE. Here's how to do that. You
 Enter a integer between 10 and 100: 24
 Enter a integer less than 4: 3
 You entered 24 and 3
-24 + 3 = 72
+24 + 3 = 27
 24 * 3 = 72
 24 ** 3 = 13824
 24 % 3 = 0
