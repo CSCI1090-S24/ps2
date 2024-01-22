@@ -39,7 +39,7 @@ First, you are going to create a Python file in IDLE. Here's how to do that. You
 
 1. Launch IDLE.
 2. Go to `File -> New file`. A new window will open.
-3. Go to `File -> Save`. A dialog window will pop up where you can enter the name of the Python file and where you want to save it:
+3. Go to `File -> Save`. A dialog window will pop up where you can enter the name of the Python file and where you want to save it. This is what it looks like on a Mac. It will look similar on Windows.
 
 <img src="img/savefile1.png" width="500">
 
@@ -103,7 +103,7 @@ When you run your program (`Run -> Run module`), your output must look like the 
 ## Part 4: Recidivism calculator
 Recidivism risk scores are used to assess the risk of committing another crime after arrest and are used in bail and early parole decisions.  In Cynthia Rudin’s article [Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead](https://www.nature.com/articles/s42256-019-0048-x) (Nature Machine Intelligence, 2019), Rudin shows how the following simple model based on conditionals is almost as accurate as more complex machine learning models.
 
-<img src="img/reccidivism.png" width="500">
+<img src="img/recidivism.png" width="500">
 
 Following the structure you used for Part 2 and Part 3, write a Python program called `ps2-part4.py`. Here's are a few sample runs of the program. Remember that your output must match this output in terms of words, spacing, formatting, etc.
 
